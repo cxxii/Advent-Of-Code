@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+def advent():
+
+    num = [151, 150, 148, 147, 154, 155, 156, 161, 164, 165] #sample of input
+    i = 0
+    length = len(num)
+    count = 0
+
+    for x in num[1:length:]:
+        if x > num[i]:
+            count += 1      
+        else:
+            count + 0 
+        i = i + 1
+    
+    
+    print(count)
+
+
+advent()
